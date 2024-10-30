@@ -1,0 +1,39 @@
+.get-curiyo-button {
+ 	-moz-box-shadow:inset 0px 1px 2px 0px #d78639;
+	-webkit-box-shadow:inset 0px 1px 2px 0px #d78639;
+	box-shadow:inset 0px 1px 2px 0px #d78639;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d78707), color-stop(1, #f6911e) );
+	background:-moz-linear-gradient( center top, #d78707 5%, #f6911e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d78707', endColorstr='#f6911e');
+	background-color:#d78707;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#000000;
+	font-family:arial;
+	font-size:30px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #d78707;
+	margin-bottom:30px;
+}.get-curiyo-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f6911e), color-stop(1, #d78707) );
+	background:-moz-linear-gradient( center top, #f6911e 5%, #d78707 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6911e', endColorstr='#d78707');
+	background-color:#f6911e;
+}.get-curiyo-button:active {
+	position:relative;
+	top:1px;
+}
+
+td#text{float:right; vertical-align:top; color: rgb(74, 74, 74); font:normal normal bold 18px Arial;padding:40px }
+div#video{float:left;}
+
+.page-container{width:900px;}
+td#header{font:normal normal bold 42px/1.4em Enriqueta, serif; text-align:center}
+
+.curiyo-settings > form > .form-table > tbody > tr > th { width: 250px }
+input[type=checkbox] {margin-top: 4px;}
